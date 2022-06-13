@@ -13,8 +13,8 @@ button.addEventListener("click", buttonClick);
 function run(event) {
     console.log("i'm runnin");
 
-    button.style.top = parseFloat(button.style.top || 50 + "px") + 20 + "px";
-    button.style.left = parseFloat(button.style.left || 300 + "px") + 20 + "px";
+    button.style.top = parseFloat(button.style.top || 0) + 20 + "px";
+    button.style.left = parseFloat(button.style.left || 0) + 20 + "px";
 
 }
 
